@@ -1,0 +1,102 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+.header{
+  font-family: Roboto;
+  width: 100%;
+  height: 61px;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: #DBBA5A;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.theatron-logo{
+  width: 100%;
+  height: 61px;
+  background-color: black;
+  padding-bottom: -10px;
+  flex-shrink:  0;
+}
+
+a {
+  color:#DBBA5A;
+  text-decoration: none;
+}
+
+.poster{
+  font-size: 20px;
+  margin-left:30px;
+  margin-right: 25px;
+  padding-bottom: 4px;
+  align-items: center;
+}
+
+.info{
+  font-size: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: 4px;
+}
+
+.news{
+  font-size: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: 4px;
+}
+
+.contacts{
+  font-size: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: 4px;
+}
+
+.poster:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+}
+
+.info:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+}
+
+.news:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+}
+
+.contacts:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+}
+
+.poster:active{
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+.info:active{
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+.news:active{
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+.contacts:active{
+  opacity: 0.5;
+  transition: 0.2s;
+}

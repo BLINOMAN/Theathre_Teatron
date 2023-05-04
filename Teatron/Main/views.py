@@ -1,15 +1,16 @@
-from django.http import HttpResponse
-
 from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-    return render(request, 'index.html')
+    return render(request, 'главная.html')
 
 
 def affiche(request):
-    return render(request, 'affiche.html')
+    return render(request, 'афиша.html')
 
 
 def theatre_troupe(request):
-    return render(request, 'theatre_troupe.html')
+    return render(request, 'трупа.html')
+
+def about(request):
+    return render(request, 'о нас.html')
