@@ -1,23 +1,23 @@
 footer{
   background-color: black;
+
 }
 
 .photo-footer{
-  width: 100px;
+  width: 8vw;
 }
 
 .footer{
-  margin-left: 100px;
-  padding-top: 30px;
+  margin-left: 8%;
+  padding-top: 2%;
 }
 
 .footer-name{
   font-family: Roboto;
   color:#DBBA5A;
-  padding-top: 15px;
-  padding-bottom: 10px;
+  font-size: 1.2vw;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
-.footer-name-h1{
-  font-size: 25px;
-}
+

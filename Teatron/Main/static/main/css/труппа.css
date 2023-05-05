@@ -1,0 +1,91 @@
+html {
+  background-color: rgb(98, 78, 170);
+}
+
+main{
+  margin: 0;
+  padding: 0;
+  }
+
+.main-h1{
+  color: #DBBA5A;
+  font-family: Roboto;
+  margin-top: 1.5vw;
+  margin-left: 42vw;
+  font-size: 2vw;
+}
+
+.staff-div{
+  display: flex;
+  flex-direction: column;
+  margin-left: 13vw;
+  margin-right: 13vw;
+  margin-top: 7vw;
+  row-gap: 2vw;
+}
+
+.personal-info{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.image-staff-div{
+  display: inline;
+  color:#DBBA5A;
+  font-family: Roboto;
+  width: 14vw;
+}
+
+.image-staff{
+  width: 10vw;
+}
+
+.name-info-staff{
+  display: inline;
+  color:#DBBA5A;
+  font-family: Roboto;
+  padding-top: 0vw;
+  line-height: 4vw;
+  font-size: 1.3vw;
+}
+
+.name-staff{
+  display: inline;
+  margin-top: 3vw;
+}
+
+.info-staff{
+    display: inline;
+}
+
+.button{
+  margin-left: 5vw;
+  margin-top: 3.5vw;
+  background-color: rgb(0, 0, 0);
+  color: #DBBA5A;
+  border-color: rgb(63, 63, 63);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-width: 1%;
+  border-style: solid;
+  font-size: 1vw;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  border-radius: 15px;    
+}
+
+.button:hover{
+  opacity: 0.85;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.button:active{
+  opacity: 0.7;
+  transition: 0.1s;
+}
+
+
+
+

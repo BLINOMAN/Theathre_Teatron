@@ -1,0 +1,241 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Труппа театра - beta</title>
+  <link rel="stylesheet" href="{% static 'main/css/header.css' %}">
+  <link rel="stylesheet" href="{% static 'main/css/труппа.css' %}">
+  <link rel="stylesheet" href="{% static 'main/css/footer.css' %}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class = "header">
+        <div>
+          <a href="{% url 'index' %}">
+            <img class = "theatron-logo" src="{% static 'main/img/logo 1.png' %}" >
+          </a>
+        </div>
+        <div class = "poster">
+          <a href="{% url 'affiche' %}">Афиша</a>
+        </div>
+        <div class = "info">
+          <a href="{% url 'about' %}">О нас</a>
+        </div>
+        <div class = "news">
+          <a href="">Новости</a>
+        </div>
+        <div class = "troupe">
+          <a href="{% url 'theatre_troupe' %}">Труппа</a>
+        </div>
+        <div class = "contacts">
+          <a href="">Контакты</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <p class = "main-h1">
+      Труппа театра
+    </p>
+
+    <div class = "staff-div">
+      <hr style = "width: 100%;">
+      <div class = "personal-info">
+        <div class = image-staff-div>
+          <img class = "image-staff" src = "{% static 'main/img/staff-1.png' %}">
+        </div>
+        <div class = "name-info-staff">
+          <p class = "name-staff">
+            Афансьев Сергей Сергеевич
+          </p>
+          <br>
+          <hr>
+          <p class = "info-staff">
+            Работает в театре с 2018г.
+          </p>
+        </div>
+        <div class = "button-div">
+          <button class = "button">
+            Подробнее
+          </button>
+        </div>
+      </div>
+      <hr style = "width: 100%;">
+      <div class = "personal-info">
+        <div class = image-staff-div>
+          <img class = "image-staff" src = "{% static 'main/img/staff-2.png' %}">
+        </div>
+        <div class = "name-info-staff">
+          <p class = "name-staff">
+            Бабарина Екатерина Валерьевна
+          </p>
+          <br>
+          <hr>
+          <p class = "info-staff">
+            Работает в театре с 2010г.
+          </p>
+        </div>
+        <div class = "button-div">
+          <button class = "button">
+            Подробнее
+          </button>
+        </div>
+      </div>
+
+      <hr style = "width: 100%;">
+      <div class = "personal-info">
+        <div class = image-staff-div>
+          <img class = "image-staff" src = "{% static 'main/img/staff-3.png' %}">
+        </div>
+        <div class = "name-info-staff">
+          <p class = "name-staff">
+            Боровых Татьяна Вячеславовна
+          </p>
+          <br>
+          <hr>
+          <p class = "info-staff">
+            Работает в театре с 2010г.
+          </p>
+        </div>
+        <div class = "button-div">
+          <button class = "button">
+            Подробнее
+          </button>
+        </div>
+      </div>
+
+      <hr style = "width: 100%;">
+      <div class = "personal-info">
+        <div class = image-staff-div>
+          <img class = "image-staff" src = "{% static 'main/img/staff-4.png' %}">
+        </div>
+        <div class = "name-info-staff">
+          <p class = "name-staff">
+            Башкирев Дмитрий
+          </p>
+          <br>
+          <hr>
+          <p class = "info-staff">
+            Работает в театре с 2022г.
+          </p>
+        </div>
+        <div class = "button-div">
+          <button class = "button">
+            Подробнее
+          </button>
+        </div>
+      </div>
+
+      <hr style = "width: 100%;">
+      <div class = "personal-info">
+        <div class = image-staff-div>
+          <img class = "image-staff" src = "{% static 'main/img/staff-5.png' %}">
+        </div>
+        <div class = "name-info-staff">
+          <p class = "name-staff">
+            Васильев Евгений Николаевич
+          </p>
+          <br>
+          <hr>
+          <p class = "info-staff">
+            Работает в театре с 2016г.
+          </p>
+        </div>
+        <div class = "button-div">
+          <button class = "button">
+            Подробнее
+          </button>
+        </div>
+      </div>
+
+      <hr style = "width: 100%;">
+      <div class = "personal-info">
+        <div class = image-staff-div>
+          <img class = "image-staff" src = "{% static 'main/img/staff-6.png' %}">
+        </div>
+        <div class = "name-info-staff">
+          <p class = "name-staff">
+            Верхотурова Надежда
+          </p>
+          <br>
+          <hr>
+          <p class = "info-staff">
+            Работает в театре с 2022г.
+          </p>
+        </div>
+        <div class = "button-div">
+          <button class = "button">
+            Подробнее
+          </button>
+        </div>
+      </div>
+
+      <hr style = "width: 100%;">
+      <div class = "personal-info">
+        <div class = image-staff-div>
+          <img class = "image-staff" src = "{% static 'main/img/staff-7.png' %}">
+        </div>
+        <div class = "name-info-staff">
+          <p class = "name-staff">
+            Гаренских Наталья Павловна
+          </p>
+          <br>
+          <hr>
+          <p class = "info-staff">
+            Работает в театре с 2018г.
+          </p>
+        </div>
+        <div class = "button-div">
+          <button class = "button">
+            Подробнее
+          </button>
+        </div>
+      </div>
+
+      <hr style = "width: 100%;">
+      <div class = "personal-info">
+        <div class = image-staff-div>
+          <img class = "image-staff" src = "{% static 'main/img/staff-8.png' %}">
+        </div>
+        <div class = "name-info-staff">
+          <p class = "name-staff">
+            Генш Лидия Владимировна
+          </p>
+          <br>
+          <hr>
+          <p class = "info-staff">
+            Работает в театре с 2014г.
+          </p>
+        </div>
+        <div class = "button-div">
+          <button class = "button">
+            Подробнее
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class = "footer"> 
+      <div class = "footer-name">
+        <img class = "photo-footer" src="image/logo 1.png">
+        <p>&copy;Малый драматический театр &#171;Театрон&#187;</p>
+        <p> Адрес: г. Екатеринбург, ул. Карла Либкиехта, 13/пр. Ленина 38-а</p>
+        <p>Тел: 8-(343) 371-43-86, 371-55-61, 8-919-367-1008</p>
+        <p> Политика конфидециальности</p>
+        <p>Пользовательское соглашение</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -10,7 +10,7 @@ def affiche(request):
 
 
 def theatre_troupe(request):
-    return render(request, 'трупа.html')
+    return render(request, 'труппа.html')
 
 def about(request):
     return render(request, 'о нас.html')

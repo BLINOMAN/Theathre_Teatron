@@ -1,19 +1,17 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Театрон-beta</title>
+  <title>Афиша2-beta</title>
   <link rel="stylesheet" href="{% static 'main/css/header.css' %}">
   <link rel="stylesheet" href="{% static 'main/css/афиша.css' %}">
   <link rel="stylesheet" href="{% static 'main/css/footer.css' %}">
-
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="icon" href="image/favicon.ico" type="image/x-icon">
-  <title>Афиша-beta</title>
 </head>
 <body>
   <header>
@@ -44,32 +42,130 @@
   </header>
 
   <main>
-    <div class = "head-title">
-      Афиша
-    </div>
-
-    <div class = "table-grid">
-      Здесь будет афиша одного из спектаклей
-    </div>
-
-    <div class = "table-grid">
-      Здесь будет афиша одного из спектаклей
-    </div>
-
-    <div class = "table-grid">
-      Здесь будет афиша одного из спектаклей
-    </div>
-    
-    <div class = "table-grid">
-      Здесь будет афиша одного из спектаклей
-    </div>
-
-    <div class = "table-grid">
-      Здесь будет афиша одного из спектаклей
-    </div>
-
-    <div class = "table-grid">
-      Здесь будет афиша одного из спектаклей
+    <div class = "poster-aside">
+      <div class = "posters">
+        <hr>
+        <div class = "div-poster">
+          <img class = "image-poster" src = "{% static 'main/img/poster-1.png' %}">
+          <div class = "info-poster">
+            <p>
+              "Любовь ещё быть может..."
+            </p>
+            <p>
+              с 20 апреля
+            </p>
+            <p>
+              Короткое описание
+            </p>
+            <button class = "button">
+              Забранировать
+            </button>
+          </div>
+        </div>
+  
+        <hr>
+        <div class = "div-poster">
+          <img class = "image-poster" src = "{% static 'main/img/poster-2.png' %}">
+          <div class = "info-poster">
+            <p>
+              "Как чуть не съели королевну Булочку"
+            </p>
+            <p>
+              с 20 апреля
+            </p>
+            <p>
+              Короткое описание
+            </p>
+            <button class = "button">
+              Забранировать
+            </button>
+          </div>
+        </div>
+  
+        <hr>
+        <div class = "div-poster">
+          <img class = "image-poster" src = "{% static 'main/img/poster-3.png' %}">
+          <div class = "info-poster">
+            <p>
+              "Женщины на грани нервного срыва"
+            </p>
+            <p>
+              с 20 апреля
+            </p>
+            <p>
+              Короткое описание
+            </p>
+            <button class = "button">
+              Забранировать
+            </button>
+          </div>
+        </div>
+        
+        <hr>
+        <div class = "div-poster">
+          <img class = "image-poster" src = "{% static 'main/img/poster-1.png' %}">
+          <div class = "info-poster">
+            <p>
+              "Любовь ещё быть может..."
+            </p>
+            <p>
+              с 20 апреля
+            </p>
+            <p>
+              Короткое описание
+            </p>
+            <button class = "button">
+              Забранировать
+            </button>
+          </div>
+        </div>
+  
+        <hr>
+        <div class = "div-poster">
+          <img class = "image-poster" src = "{% static 'main/img/poster-2.png' %}">
+          <div class = "info-poster">
+            <p>
+              "Как чуть не съели королевну Булочку"
+            </p>
+            <p>
+              с 20 апреля
+            </p>
+            <p>
+              Короткое описание
+            </p>
+            <button class = "button">
+              Забранировать
+            </button>
+          </div>
+        </div>
+  
+        <hr>
+        <div class = "div-poster">
+          <img class = "image-poster" src = "{% static 'main/img/poster-3.png' %}">
+          <div class = "info-poster">
+            <p>
+              "Женщины на грани нервного срыва"
+            </p>
+            <p>
+              с 20 апреля
+            </p>
+            <p>
+              Короткое описание
+            </p>
+            <button class = "button">
+              Забранировать
+            </button>
+          </div>
+        </div>  
+      </div>
+      <div class = "div-aside">
+        <div class = "date-div">
+          <p class = "text-date">
+            Выбрать дату и время
+          </p>
+          <input type="date" class = "date-time">
+        </div>
+      </div>
     </div>
   </main>
   <footer>
@@ -84,5 +180,4 @@
       </div>
     </div>
   </footer>
-</body>
 </html>

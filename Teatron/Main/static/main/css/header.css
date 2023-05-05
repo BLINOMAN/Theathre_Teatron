@@ -5,8 +5,8 @@ body{
 
 .header{
   font-family: Roboto;
-  width: 100%;
-  height: 61px;
+  width: 100%;;
+  height: 4.5vw;
   display: flex;
   flex-direction: row;
   background-color: black;
@@ -16,8 +16,7 @@ body{
 }
 
 .theatron-logo{
-  width: 100%;
-  height: 61px;
+  width: 12vw;
   background-color: black;
   padding-bottom: -10px;
   flex-shrink:  0;
@@ -29,7 +28,7 @@ a {
 }
 
 .poster{
-  font-size: 20px;
+  font-size: 1.4vw;
   margin-left:30px;
   margin-right: 25px;
   padding-bottom: 4px;
@@ -37,21 +36,21 @@ a {
 }
 
 .info{
-  font-size: 20px;
+  font-size: 1.4vw;
   margin-left: 25px;
   margin-right: 25px;
   padding-bottom: 4px;
 }
 
 .news{
-  font-size: 20px;
+  font-size: 1.4vw;
   margin-left: 25px;
   margin-right: 25px;
   padding-bottom: 4px;
 }
 
 .contacts{
-  font-size: 20px;
+  font-size: 1.4vw;
   margin-left: 25px;
   margin-right: 25px;
   padding-bottom: 4px;

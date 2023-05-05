@@ -5,8 +5,7 @@ background-color: rgb(98, 78, 170);
 .slider1{
   display: flex;
   flex-direction: row;
-  justify-content:center;
-  height: 300px;
+  justify-content: center;
 }
 
 .slider1-1{
@@ -29,54 +28,55 @@ background-color: rgb(98, 78, 170);
   font-family: Roboto;
   color: #DBBA5A;
   background-color: rgb(98, 90, 128);
-  padding-left: 43%;
-  padding-right: 40%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 45%;
+  padding-right: 43%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 1.3vw;
 }
 
 .image-poster-container{
   padding-top: 20px;
   padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .image-poster-div{
-  display: inline;
+  flex:1;
   margin-left: 30px;
   margin-right: 30px;
 }
 
+.image-poster{
+  width: 100%;
+  border-radius: 20px;
+}
+
 .slider-div{
   background-color: rgb(98, 90, 128);
-  width: 100%;
 }
 
 .slider-name{
   color:#DBBA5A;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:space-around;
 }
 
-.slider-left-symbol{
-  display: inline;
-  font-size: 80px;
+.slider-left-symbol {
+  font-size: 5vw;
 }
 
 .slider-middle-symbol{
   font-family: Roboto;
-  display: inline;
-  font-size: 30px;
-  padding-top: 25px;
+  font-size: 1.5vw;
+  padding-top: 2%;
 }
 
 .slider-right-symbol{
-  display: inline;
-  font-size: 80px;
-}
-
-.image-poster{
-  width: 300px;
+  font-size: 5vw;
 }
 
 .slider-left-symbol:hover{
@@ -102,61 +102,69 @@ background-color: rgb(98, 78, 170);
 }
 
 .slider-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
   margin-right: 20px;
   margin-left: 20px;
-  column-gap: 40px;
+  column-gap: 30px;
 }
 
 
 .slider2{
   background-color: rgb(103, 103, 103);
+  flex:1;
+  border-radius: 15px;
 }
 
 .slider-time{
   color:#DBBA5A;
   font-family: Roboto;
   display: block;
-  font-size: 20px;
-  margin-left: 70px;
+  font-size: 1.3vw;
+  margin-left: 30%;
   text-align: center;
-  margin-right: 70px;
-  margin-bottom: 5px;
-  line-height: 25px;
-  margin-top: 5px;
+  margin-right: 30%;
+  margin-bottom: 2%;
+  line-height: 100%;
+  margin-top: 2%;
 }
 
 .image-slider{
-  margin-left: 50px;
-  margin-right: 45px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 2%;
+  border-radius: 15px;
 }
 
 .slider-info{
   color:#DBBA5A;
   font-family: Roboto;
   display: block;
-  margin-left: 0px;
-  margin-top: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  font-size: 1.3vw;
   text-align: center;
 }
 
 .button-slider{
-  margin-bottom: 25px ;
-  margin-left: 85px;
-  margin-top: 20px;
+  margin-bottom: 10% ;
+  margin-left: 20%;
+  margin-top: 10%;
   background-color: rgb(96, 69, 196);
   color: #DBBA5A;
   border-color: rgb(86, 86, 86);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-  border-width: 1px;
+  border-width: 1%;
   border-style: solid;
-  font-size: 18px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 15px;
-  padding-right: 15px;  
+  font-size: 1vw;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  border-radius: 15px;
 }
 
 .button-slider:hover{
@@ -171,16 +179,16 @@ background-color: rgb(98, 78, 170);
 }
 
 .header-maps{
-  margin-top: 75px;
   font-family: Roboto;
-  font-size: 20px;
+  font-size: 1.7vw;
   color:#DBBA5A;
-  margin-left: 650px;
+  margin-left: 42%;
+  margin-top: 7%;
 }
 
 .map{
-  margin-top: 15px;
-  margin-left: 340px;
-  margin-right: 323px;
-
+  margin-left: 32%;
+  margin-top: 2%;
+  width: 35vw;
+  height: 17vw;
 }
