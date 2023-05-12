@@ -1,0 +1,28 @@
+html{
+  background-color: rgb(98, 90, 128);
+}
+
+main{
+  background-color: rgb(98, 90, 128);
+  margin: 0;
+  padding: 0;
+};
+
+.roster-rows{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.symbol-div{
+  width: 240px;
+  color: #DBBA5A;
+  font-family: Roboto;
+  font-size: 220px;
+  opacity: 0.5;
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+
+
+

@@ -1,6 +1,8 @@
+html{
+  background-color: black ;
+}
 
 main{
-  background-color: rgb(98, 90, 128);
   margin: 0;
   padding: 0;
 }
@@ -8,50 +10,52 @@ main{
 .info-heading{
   font-family: Roboto;
   color:#DBBA5A;
-  font-size: 24px;
-  padding-left: 70px;
-  padding-top: 20px;
+  font-size: 2vw;
+  margin-top: 3vw;
   text-align: center;
 }
 
 .info-text{
-  margin-top: 40px;
+  margin-top: 3vw;
   text-align: left;
   font-family: Roboto;
-  padding: 0;
   color:#DBBA5A;
-  font-size: 22px;
-  margin-left: 50px;
-  line-height: 37px;
-  margin-right: 40px;
+  font-size: 1.5vw;
+  line-height: 3.5vw;
+  text-align: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 
 .button-div{
 display: block;
-margin-left: 1230px;
-margin-top: 50px;
-padding: 20px;
+margin-left: 85vw;
+margin-top: 4vw;
 }
 
 .button{
-  padding-top: 17px;
-  padding-bottom: 17px;
-  padding-right: 48px;
-  padding-left: 48px;
+  font-size: 1vw;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  padding-right: 2.3vw;
+  padding-left: 2.3vw;
   color:#DBBA5A;
   font-weight: bold;
-  background-color: rgb(98, 90, 128);
+  background-color: black;
+  border-color: #DBBA5A;
   font-family: Roboto;
-  border-color: rgb(98, 90, 128);
   border-style: solid;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
-  border-radius: 5px; 
+  border-radius: 2vw;
+  border-width: 0.2vw;
+  margin-bottom: 2vw; 
 }
 
 .button:hover{
   transition: 0.2s;
   background-color: rgb(98, 78, 170);
   cursor: pointer;
+  background-color: #1C8A8A;
+  border-color: #1C8A8A;
 }
 
 .button:active{
@@ -60,62 +64,43 @@ padding: 20px;
 }
 
 .personal-grid{
-  margin-top:60px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-right: 50px;
-  margin-left: 50px;
-  row-gap: 60px;
-  column-gap: 90px;
-  padding-bottom:60px;
+  margin-top:2vw;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1vw;
 }
 
-.personal{
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(57, 57, 57);
-  background-color: rgb(103, 103, 103);
+.personal {
+  flex: 1;
+  flex-shrink: 1;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
+
 
 .personal-name{
   color: #DBBA5A;
   font-family: Roboto;
-  font-size: 24px;
-  padding-left: 150px;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  font-size: 1.5vw;
+  text-align: center;
+  padding-top: 3vw;
+  padding-bottom: 2vw;
 }
 
 .photo-logo{
-  width: 250px;
-  margin-top: 0px;
-  margin-bottom: 40px;
-  margin-left: 75px;
+  width: 100%;
+  margin-top: 1vw;
+  margin-bottom: 10vw;
+  border-radius: 2vw;
 }
 
-.personal-button{
-  margin-bottom: 30px ;
-  margin-left: 120px;
-  background-color: rgb(96, 69, 196);
-  color: #DBBA5A;
-  border-color: rgb(86, 86, 86);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-  border-width: 1px;
-  border-style: solid;
-  font-size: 18px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 15px;
-  padding-right: 15px;  
-}
-
-.personal-button:hover{
+.personal-name:hover{
   cursor: pointer;
-  opacity: 0.75;
-  transition: 0.2s;
+  opacity: 0.8;
+  transition: 0.1s;
 }
 
-.personal-button:active{
-  opacity: 0.5;
+.personal-name:active{
+  opacity: 0.7;
   transition: 0.1s;
 }

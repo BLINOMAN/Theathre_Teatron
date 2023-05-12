@@ -9,7 +9,7 @@ body{
   height: 4.5vw;
   display: flex;
   flex-direction: row;
-  background-color: black;
+  background-color: #1C8A8A;
   color: #DBBA5A;
   flex-shrink: 0;
   align-items: center;
@@ -17,7 +17,7 @@ body{
 
 .theatron-logo{
   width: 12vw;
-  background-color: black;
+  background-color: #1C8A8A;
   padding-bottom: -10px;
   flex-shrink:  0;
 }

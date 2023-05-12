@@ -1,5 +1,5 @@
 html {
-  background-color: rgb(98, 78, 170);
+  background-color: black;
 }
 
 main{
@@ -79,6 +79,8 @@ main{
   opacity: 0.85;
   transition: 0.2s;
   cursor: pointer;
+  background-color: #1C8A8A;
+  border-color: black;
 }
 
 .button:active{
