@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44006ac5-1aa9-4e1d-955a-862ee5fbf2de" name="Changes" comment="update to the last versions of html's">
-      <change afterPath="$PROJECT_DIR$/Teatron/Main/static/main/css/афиша2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Teatron/Main/static/main/css/трупа.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teatron/Main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teatron/Main/static/main/css/article.css" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/static/main/css/article.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teatron/Main/static/main/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/static/main/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teatron/Main/static/main/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/static/main/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teatron/Main/static/main/css/афиша.css" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/static/main/css/афиша.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teatron/Main/static/main/css/главная.css" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/static/main/css/главная.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teatron/Main/static/main/css/труппа.css" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/static/main/css/труппа.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teatron/Main/templates/афиша.html" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/templates/афиша.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teatron/Main/templates/о нас.html" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/templates/о нас.html" afterDir="false" />
-    </list>
+    <list default="true" id="44006ac5-1aa9-4e1d-955a-862ee5fbf2de" name="Changes" comment="update to the last versions of html's" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,15 +26,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/shnya/PycharmProjects/Theathre_Teatron",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shnya/PycharmProjects/Theathre_Teatron&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\shnya\PycharmProjects\Theathre_Teatron\Teatron\Main\static\main\css" />

@@ -1,21 +1,26 @@
 from django.db import models
 
-# Create your models here.
 class Employee(models.Model):
     name = models.CharField("", max_length=150)
     portet = models.ImageField()
     bio = models.CharField
-    #plays = models.
-    #gradues =
+    # plays = models.CharField("", )
+    gradues = models.CharField("", max_length=1000)
+
+class News(models.Model):
+    title = models.CharField("", max_length=170)
+    logo = models.ImageField("")
+    # images = models.ImageField("") - сделать многофайловость
+    text = models.CharField("", max_length=5000)
 
 class Plays(models.Model):
     title = models.CharField("", max_length=170)
     date = models.DateTimeField("", max_length=170)
     logo = models.ImageField("")
-    stuff = models.ForeignKey(Employee, on_delete=models.CASCADE)
-    lenth = models.IntegerField()
-    lenth = models.IntegerField()
-    age = models.IntegerField()
+    #images = models.ImageField("") - сделать многофайловость
+    stuff = models.ForeignKey(Employee, on_delete=models.CASCADE) # - сделать отсылку на множество сотрудников
+    duration = models.IntegerField()
+    age_limit = models.IntegerField()
     Pushkins_card = models.BooleanField()
     annotation = models.CharField("", max_length=2500)
 """
@@ -45,6 +50,6 @@ class Plays(models.Model):
 1. Имя
 2. Портрет
 3. Биография
-4. Спекткали
+4. Спектакли
 5. Награды
 """
