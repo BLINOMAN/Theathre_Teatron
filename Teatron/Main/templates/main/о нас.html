@@ -89,48 +89,18 @@
       <hr>
 
       <div class = "personal-grid">
-        <div class = "personal">
+          {% if employee %}
+      {% for el in employee %}<div class = "personal">
           <div class = "personal-name">
-            Сотрудник
+            {{ el.name }}
           </div>
-          <img  class = "photo-logo" src="{% static 'main/img/photo-logo.png' %}">
+          <img  class = "photo-logo" src="{{ el.portet.url }}">
 
-        </div>
-        <div class = "personal">
-          <div class = "personal-name">
-            Сотрудник
-          </div>
-          <img  class = "photo-logo" src="{% static 'main/img/photo-logo.png' %}">
+        </div>{% endfor %}
+    {% else %}
+      <h3> Здесь будут ваши Сотрудники </h3>
+    {% endif %}
 
-        </div>
-        <div class = "personal">
-          <div class = "personal-name">
-            Сотрудник
-          </div>
-          <img  class = "photo-logo" src="{% static 'main/img/photo-logo.png' %}">
-
-        </div>
-        <div class = "personal">
-          <div class = "personal-name">
-            Сотрудник
-          </div>
-          <img  class = "photo-logo" src="{% static 'main/img/photo-logo.png' %}">
-
-        </div>
-        <div class = "personal">
-          <div class = "personal-name">
-            Сотрудник
-          </div>
-          <img  class = "photo-logo" src="{% static 'main/img/photo-logo.png' %}">
-
-        </div>
-        <div class = "personal">
-          <div class = "personal-name">
-            Сотрудник
-          </div>
-          <img  class = "photo-logo" src="{% static 'main/img/photo-logo.png' %}">
-
-        </div>
       </div>
     </main> 
     <footer>

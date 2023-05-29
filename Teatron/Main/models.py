@@ -2,16 +2,30 @@ from django.db import models
 
 class Employee(models.Model):
     name = models.CharField("", max_length=150)
-    portet = models.ImageField()
+    portet = models.ImageField('Портрет', upload_to='images/', blank=True, null=True)
     bio = models.CharField
     # plays = models.CharField("", )
     gradues = models.CharField("", max_length=1000)
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        verbose_name = "Сотрудник"
+        verbose_name_plural = "Сотрудники"
 
 class News(models.Model):
     title = models.CharField("", max_length=170)
-    logo = models.ImageField("")
+    logo = models.ImageField('Постер', upload_to='images/', blank=True, null=True)
     # images = models.ImageField("") - сделать многофайловость
     text = models.CharField("", max_length=5000)
+    #date = models.DateTimeField("", max_length=170, null=True)
+
+    def __str__(self):
+        return self.title
+
+    class Meta:
+        verbose_name = "Новость"
+        verbose_name_plural = "Новости"
 
 class Plays(models.Model):
     title = models.CharField("", max_length=170)
@@ -23,6 +37,13 @@ class Plays(models.Model):
     age_limit = models.IntegerField()
     Pushkins_card = models.BooleanField()
     annotation = models.CharField("", max_length=2500)
+
+    def __str__(self):
+        return self.title
+
+    class Meta:
+        verbose_name = "Спектакль"
+        verbose_name_plural = "Спектакли"
 """
 СПЕКТАКЛИ:
 1. Название

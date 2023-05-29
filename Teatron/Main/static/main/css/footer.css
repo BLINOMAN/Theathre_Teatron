@@ -1,6 +1,6 @@
 footer{
-  background-color: black;
-  
+  background-color: rgb(45, 26, 1);
+  transition: 1s
 }
 
 .photo-footer{
@@ -14,10 +14,13 @@ footer{
 
 .footer-name{
   font-family: Roboto;
-  color:#DBBA5A;
+  color: antiquewhite;
   font-size: 1.2vw;
   padding-top: 1%;
   padding-bottom: 1%;
 }
 
+footer:hover{
+  background-color: rgb(67, 38, 0);
+}
 

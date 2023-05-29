@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44006ac5-1aa9-4e1d-955a-862ee5fbf2de" name="Changes" comment="update to the last versions of html's" />
+    <list default="true" id="44006ac5-1aa9-4e1d-955a-862ee5fbf2de" name="Changes" comment="update to the last versions of html's">
+      <change afterPath="$PROJECT_DIR$/Teatron/Main/static/main/css/спектакль.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Teatron/Main/templates/main/спектакль.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/Main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/Main/static/main/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/static/main/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/Main/static/main/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/static/main/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/Main/static/main/css/главная.css" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/static/main/css/главная.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/Main/static/main/img/poster-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/Main/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/Main/templates/афиша.html" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/templates/main/афиша.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/Main/templates/главная.html" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/templates/main/главная.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/Main/templates/о нас.html" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/templates/main/о нас.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/Main/templates/труппа.html" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/templates/main/труппа.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/Main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/Main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/Teatron/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Teatron/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/Teatron/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Teatron/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,16 +50,16 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/shnya/PycharmProjects/Theathre_Teatron&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shnya/PycharmProjects/manager-IT-projecta&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shnya\PycharmProjects\Theathre_Teatron\Teatron\Main\templates\main" />
       <recent name="C:\Users\shnya\PycharmProjects\Theathre_Teatron\Teatron\Main\static\main\css" />
       <recent name="C:\Users\shnya\PycharmProjects\Theathre_Teatron\Teatron\Main\static\main\img" />
       <recent name="C:\Users\shnya\PycharmProjects\Theathre_Teatron\Teatron\Main\templates" />
-      <recent name="C:\Users\shnya\PycharmProjects\Theathre_Teatron\Teatron\Main\templates\main" />
       <recent name="C:\Users\shnya\PycharmProjects\Theathre_Teatron\Teatron\Main\static\main" />
     </key>
   </component>

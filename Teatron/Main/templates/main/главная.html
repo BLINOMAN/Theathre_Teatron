@@ -42,12 +42,12 @@
     </nav>
   </header>
   <main>
-    <aside class = "slider1">
-      <img class = "slider1-1" src="{% static 'main/img/slider1-1.png' %}">
-      <img class = "slider1-2" src="{% static 'main/img/slider1-2.png' %}">
-      <img class = "slider1-3" src="{% static 'main/img/slider1-3.png' %}">
-    </aside>
 
+    {% if news %}
+      {% for el in news %}<img class="slider1" src="{{ el.logo.url }}">{% endfor %}
+    {% else %}
+      <h3> Здесь будут ваши новости </h3>
+    {% endif %}
     <div class = "teatron-inst">
       @teatron Instagram
     </div>
@@ -82,90 +82,25 @@
     </div>
 
     <div class = "slider-container">
-      <div class = "slider2">
+    {% if plays %}
+      {% for el in plays %}<div class = "slider2">
         <div class = "slider-time">
-          10 марта
-        </div>
-        <div class = "slider-time">
-          17:30
+          {{ el.date }}
         </div>
         <div class = "image-slider-div">
-          <img class = "image-slider" src="{% static 'main/img/slider2-1.png' %}">
+          <img class = "image-slider" src="{{ el.logo.url }}">
         </div>
         <div class = "slider-info">
-          "Любовь еще быть <br>
-           может..." - Сергей Руббе <br>
-           Трагикомедия в 2-х <br>
-           действиях <br>
-           16+
+          {{ el.title }}
+          {{ el.age_limit }}+
         </div>
         <button class = "button-slider">
           ПОДРОБНЕЕ
         </button>
-      </div>
-      <div class = "slider2">
-        <div class = "slider-time">
-          10 марта
-        </div>
-        <div class = "slider-time">
-          17:30
-        </div>
-        <div class = "image-slider-div">
-          <img class = "image-slider" src="{% static 'main/img/slider2-1.png' %}">
-        </div>
-        <div class = "slider-info">
-          "Любовь еще быть <br>
-           может..." - Сергей Руббе <br>
-           Трагикомедия в 2-х <br>
-           действиях <br>
-           16+
-        </div>
-        <button class = "button-slider">
-          ПОДРОБНЕЕ
-        </button>
-      </div>
-      <div class = "slider2">
-        <div class = "slider-time">
-          10 марта
-        </div>
-        <div class = "slider-time">
-          17:30
-        </div>
-        <div class = "image-slider-div">
-          <img class = "image-slider" src="{% static 'main/img/slider2-1.png' %}">
-        </div>
-        <div class = "slider-info">
-          "Любовь еще быть <br>
-           может..." - Сергей Руббе <br>
-           Трагикомедия в 2-х <br>
-           действиях <br>
-           16+
-        </div>
-        <button class = "button-slider">
-          ПОДРОБНЕЕ
-        </button>
-      </div>
-      <div class = "slider2">
-        <div class = "slider-time">
-          10 марта
-        </div>
-        <div class = "slider-time">
-          17:30
-        </div>
-        <div class = "image-slider-div">
-          <img class = "image-slider" src="{% static 'main/img/slider2-1.png' %}">
-        </div>
-        <div class = "slider-info">
-          "Любовь еще быть <br>
-           может..." - Сергей Руббе <br>
-           Трагикомедия в 2-х <br>
-           действиях <br>
-           16+
-        </div>
-        <button class = "button-slider">
-          ПОДРОБНЕЕ
-        </button>
-      </div>
+      </div>{% endfor %}
+    {% else %}
+      <h3> Здесь будут ваши Спектакли </h3>
+    {% endif %}
     </div>
 
     <div class = "header-maps">
@@ -177,7 +112,7 @@
 
   </main>
   <footer>
-    <div class = "footer"> 
+    <div class = "footer">
       <div class = "footer-name">
         <img class = "photo-footer" src="{% static 'main/img/logo 1.png' %}">
         <p>&copy;Малый драматический театр &#171;Театрон&#187;</p>
