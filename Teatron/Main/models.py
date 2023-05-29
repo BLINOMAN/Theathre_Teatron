@@ -4,7 +4,6 @@ class Employee(models.Model):
     name = models.CharField("", max_length=150)
     portet = models.ImageField('Портрет', upload_to='images/', blank=True, null=True)
     bio = models.CharField
-    # plays = models.CharField("", )
     gradues = models.CharField("", max_length=1000)
     def __str__(self):
         return self.name
@@ -16,9 +15,7 @@ class Employee(models.Model):
 class News(models.Model):
     title = models.CharField("", max_length=170)
     logo = models.ImageField('Постер', upload_to='images/', blank=True, null=True)
-    # images = models.ImageField("") - сделать многофайловость
     text = models.CharField("", max_length=5000)
-    #date = models.DateTimeField("", max_length=170, null=True)
 
     def __str__(self):
         return self.title
@@ -31,7 +28,6 @@ class Plays(models.Model):
     title = models.CharField("", max_length=170)
     date = models.DateTimeField("", max_length=170)
     logo = models.ImageField("")
-    #images = models.ImageField("") - сделать многофайловость
     stuff = models.ForeignKey(Employee, on_delete=models.CASCADE) # - сделать отсылку на множество сотрудников
     duration = models.IntegerField()
     age_limit = models.IntegerField()
