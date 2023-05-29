@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44006ac5-1aa9-4e1d-955a-862ee5fbf2de" name="Changes" comment="update to the last versions of html's" />
+    <list default="true" id="44006ac5-1aa9-4e1d-955a-862ee5fbf2de" name="Changes" comment="Сделано почти всё. Только на странице спектакль.html нужно базу данных докрутить. Я уверен, ты разберёшься. А в остальном можно заливать на хостинг">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/Main/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/Main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/Main/templates/main/plays.html" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/templates/main/plays.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teatron/db.sqlite3" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +81,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

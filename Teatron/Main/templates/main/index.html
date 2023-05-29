@@ -98,9 +98,11 @@
           {{ el.title }}
           {{ el.age_limit }}+
         </div>
-        <button class = "button-slider">
-          ПОДРОБНЕЕ
-        </button>
+
+      <form action="{% url 'plays_detail' el.id %}" target="_blank">
+        <button class = "button-slider">ПОДРОБНЕЕ</button>
+      </form>
+
       </div>{% endfor %}
     {% else %}
       <h3> Здесь будут ваши Спектакли </h3>
