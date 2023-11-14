@@ -1,16 +1,19 @@
 from django.db import models
 
+
 class Employee(models.Model):
     name = models.CharField("", max_length=150)
     portet = models.ImageField('Портрет', upload_to='images/', blank=True, null=True)
     bio = models.CharField
     gradues = models.CharField("", max_length=1000)
+
     def __str__(self):
         return self.name
 
     class Meta:
         verbose_name = "Сотрудник"
         verbose_name_plural = "Сотрудники"
+
 
 class News(models.Model):
     title = models.CharField("", max_length=170)
@@ -24,11 +27,12 @@ class News(models.Model):
         verbose_name = "Новость"
         verbose_name_plural = "Новости"
 
+
 class Plays(models.Model):
     title = models.CharField("", max_length=170)
     date = models.DateTimeField("", max_length=170)
     logo = models.ImageField("")
-    stuff = models.ForeignKey(Employee, on_delete=models.CASCADE) # - сделать отсылку на множество сотрудников
+    stuff = models.ForeignKey(Employee, on_delete=models.CASCADE)  # - сделать отсылку на множество сотрудников
     duration = models.IntegerField()
     age_limit = models.IntegerField()
     Pushkins_card = models.BooleanField()
@@ -40,6 +44,8 @@ class Plays(models.Model):
     class Meta:
         verbose_name = "Спектакль"
         verbose_name_plural = "Спектакли"
+
+
 """
 СПЕКТАКЛИ:
 1. Название
