@@ -1,11 +1,30 @@
 from django.db import models
 
 
+class Plays(models.Model):
+    id = models.BigAutoField(primary_key=True)
+    title = models.CharField("Название спектакля", max_length=170)
+    date = models.DateTimeField("Дата", max_length=170)
+    logo = models.ImageField("Постер", upload_to='images/', blank=True, null=True)
+    duration = models.IntegerField("Длительность спектакля (в мин)")
+    age_limit = models.IntegerField("Возрастное ограничение")
+    Pushkins_card = models.BooleanField("Доступна ли Пушкинская карта")
+    annotation = models.CharField("Аннотация к спектаклю", max_length=2500)
+
+    def __str__(self):
+        return self.title
+
+    class Meta:
+        verbose_name = "Спектакль"
+        verbose_name_plural = "Спектакли"
+
+
 class Employee(models.Model):
-    name = models.CharField("", max_length=150)
-    portet = models.ImageField('Портрет', upload_to='images/', blank=True, null=True)
-    bio = models.CharField
-    gradues = models.CharField("", max_length=1000)
+    id = models.BigAutoField(primary_key=True)
+    name = models.CharField("Имя сотрудника", max_length=150)
+    photo = models.ImageField('Портрет', upload_to='images/', blank=True, null=True)
+    biography = models.CharField("Биография", max_length=1000, null=True)
+    gradues = models.CharField("Награды", max_length=1000)
 
     def __str__(self):
         return self.name
@@ -15,10 +34,23 @@ class Employee(models.Model):
         verbose_name_plural = "Сотрудники"
 
 
+class Employee_group(models.Model):
+    id_plays = models.ForeignKey(Plays, on_delete=models.CASCADE)
+    id_employee = models.ForeignKey(Employee, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return "Спектакль " + str(self.id_plays) + ". Сотрудник " + str(self.id_employee)
+
+    class Meta:
+        verbose_name = "Группа сотрудников"
+        verbose_name_plural = "Группы сотрудников"
+
+
 class News(models.Model):
-    title = models.CharField("", max_length=170)
+    id = models.BigAutoField(primary_key=True)
+    title = models.CharField("Название новости", max_length=170)
     logo = models.ImageField('Постер', upload_to='images/', blank=True, null=True)
-    text = models.CharField("", max_length=5000)
+    text = models.CharField("Текст", max_length=5000)
 
     def __str__(self):
         return self.title
@@ -26,24 +58,6 @@ class News(models.Model):
     class Meta:
         verbose_name = "Новость"
         verbose_name_plural = "Новости"
-
-
-class Plays(models.Model):
-    title = models.CharField("", max_length=170)
-    date = models.DateTimeField("", max_length=170)
-    logo = models.ImageField("")
-    stuff = models.ForeignKey(Employee, on_delete=models.CASCADE)  # - сделать отсылку на множество сотрудников
-    duration = models.IntegerField()
-    age_limit = models.IntegerField()
-    Pushkins_card = models.BooleanField()
-    annotation = models.CharField("", max_length=2500)
-
-    def __str__(self):
-        return self.title
-
-    class Meta:
-        verbose_name = "Спектакль"
-        verbose_name_plural = "Спектакли"
 
 
 """
