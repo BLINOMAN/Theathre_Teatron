@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44006ac5-1aa9-4e1d-955a-862ee5fbf2de" name="Changes" comment="Сделано почти всё. Только на странице спектакль.html нужно базу данных докрутить. Я уверен, ты разберёшься. А в остальном можно заливать на хостинг">
-      <change beforePath="$PROJECT_DIR$/.idea/Theathre_Teatron.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Theathre_Teatron.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teatron/Main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teatron/Main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Teatron/Main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teatron/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/header-bg.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
