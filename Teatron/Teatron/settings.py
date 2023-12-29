@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'Main',
     'Reserve_tickets',
     'Users_hub',
+    'rest_framework',
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
@@ -52,7 +54,16 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware'
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.AllowAny'
+    ]
+}
+
+CORS_ORIGIN_ALLOW_ANY = True
 
 ROOT_URLCONF = 'Teatron.urls'
 
