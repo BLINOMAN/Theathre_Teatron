@@ -1,0 +1,20 @@
+.footer {
+  padding: 60px 0 50px;
+  background-color: var(--dark-bg);
+}
+
+.footer-wrapper{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  row-gap: 27px;
+}
+.social {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+}
+
+.copiright p {
+  color: var(--header-text)
+}
