@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import DetailView
-from serializer import PlaysSerializer
+#from serializer import PlaysSerializer
 from .models import Employee, News, Plays
 
 
@@ -10,12 +10,13 @@ class PlaysDetailView(DetailView):
     context_object_name = 'play'
 
 
+# def index(request):
+#     plays = Plays.objects.order_by('-date')
+#     news = News.objects.all()
+#     employee = Employee.objects.order_by('name')
+#     return render(request, 'main/index.html', {'plays': plays, 'news': news, 'employee': employee})
 def index(request):
-    plays = Plays.objects.order_by('-date')
-    news = News.objects.all()
-    employee = Employee.objects.order_by('name')
-    return render(request, 'main/index.html', {'plays': plays, 'news': news, 'employee': employee})
-
+    return render(request, 'index.html')
 
 def affiche(request):
     plays = Plays.objects.order_by('-date')
